@@ -15,7 +15,6 @@ public class order {
         this.prices = prices;
     }
 
-    // Getters and setters as needed
     public String getName() {
         return name;
     }
@@ -24,7 +23,6 @@ public class order {
         this.name = name;
     }
 
-    // Method to print the bill with VAT and total price
     public void generateBill() {
         double total = 0;
         for (double price : prices) {
